@@ -8,6 +8,9 @@ from functools import reduce
 from copy import deepcopy
 
 ###FUNCTIONS
+#function for merging tuples
+def tup_comb(el_prev, el):
+    return el_prev + el
 
 @njit
 def self_distance_matrix(X):
